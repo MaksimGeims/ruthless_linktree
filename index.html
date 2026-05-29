@@ -1,70 +1,61 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oleg | Linktree</title>
     <meta
       name="description"
-      content="Linktree MaksimGeims: Discord, Roblox and Telegram links."
+      content="Oleg links: Discord, Roblox and Telegram."
     />
-    <title>Ruthless Linktree</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page-shell">
-      <section class="profile" aria-label="MaksimGeims links">
-        <div class="profile__media">
-          <img src="avatar.jpg" alt="MaksimGeims avatar" class="avatar" />
-        </div>
+    <main class="card" aria-label="Linktree profile">
+      <img
+        class="avatar"
+        src="avatar.jpg"
+        alt="Oleg avatar"
+        loading="eager"
+        decoding="async"
+      />
+      <h1>Oleg</h1>
+      <p class="subtitle">Discord, Roblox and Telegram</p>
 
-        <div class="profile__content">
-          <p class="eyebrow">ruthless linktree</p>
-          <h1>MaksimGeims</h1>
-          <p class="tagline">Discord, Roblox and Telegram in one place.</p>
+      <section class="links" aria-label="Social links">
+        <button class="link" type="button" data-copy="secrett7196">
+          <span class="name">Discord: secrett7196</span>
+          <span class="arrow" aria-hidden="true">#</span>
+        </button>
 
-          <div class="links" aria-label="Social links">
-            <button class="link-card" type="button" data-copy="secrett7196">
-              <span class="link-card__icon" aria-hidden="true">#</span>
-              <span>
-                <strong>Discord</strong>
-                <small>secrett7196</small>
-              </span>
-            </button>
+        <a
+          class="link"
+          href="https://www.roblox.com/users/5708189509/profile"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="name">Roblox Profile</span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
 
-            <a
-              class="link-card"
-              href="https://www.roblox.com/users/5708189509/profile"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span class="link-card__icon" aria-hidden="true">R</span>
-              <span>
-                <strong>Roblox</strong>
-                <small>Open profile</small>
-              </span>
-            </a>
-
-            <a
-              class="link-card"
-              href="http://t.me/oleshkavinik"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span class="link-card__icon" aria-hidden="true">T</span>
-              <span>
-                <strong>Telegram</strong>
-                <small>@oleshkavinik</small>
-              </span>
-            </a>
-          </div>
-        </div>
+        <a
+          class="link"
+          href="http://t.me/oleshkavinik"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="name">Telegram: @oleshkavinik</span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
       </section>
+
+      <p class="footer">Built in black, white and gray.</p>
     </main>
 
     <div class="toast" role="status" aria-live="polite">Discord copied</div>

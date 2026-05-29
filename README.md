@@ -1,6 +1,6 @@
-# Ruthless Linktree
+# Oleg Linktree
 
-Minimal black, white and gray Linktree page for MaksimGeims.
+Minimal black, white and gray Linktree page for Oleg.
 
 ## Links
 
